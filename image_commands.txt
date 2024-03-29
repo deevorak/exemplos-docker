@@ -1,0 +1,31 @@
+Baixar imagens
+--------------
+  docker image pull <nome imagem>
+  docker pull
+  
+  [parametros]
+  -a --all-tags baixa todas as tags
+  -q --quiet suprime o output
+
+
+Listar Imagens
+--------------
+  docker image ls
+  docker image list
+  docker images
+
+  [parametros]
+    -a lista todas imagens
+    -q lista somente os id das imagens
+    
+Remover Imagem
+--------------
+  docker image rm
+  docker image remove
+  docker rmi
+  
+  [parametros]
+    -f --force for;a a remocao da imagem
+  
+ 
+
