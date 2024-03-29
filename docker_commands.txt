@@ -20,3 +20,27 @@ Listar Containers
   -q lista somente os id dos containers
   -n mostra os [uyltimos n containers criados
   -s mostra o tamanho total de arquivos
+  
+Parar Container Ativo
+------------------------
+  docker stop <id ou nome>
+  
+  [parametros]
+  -t tempo para aguardar antes de matar o container
+  
+Iniciar Container Parado
+------------------------
+  docker start <id ou nome>
+  
+  [parametros]
+    -a attach STDOUT/STDERR
+    -i interactive attach STDIN
+    
+Pausar Container
+------------------------
+  docker pause <id ou nome>
+  
+Despausar Container
+------------------------
+  docker unpause <id ou nome>    
+
