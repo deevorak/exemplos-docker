@@ -1,0 +1,22 @@
+Listar Imagens
+--------------
+  docker image ls
+  docker image list
+  docker images
+
+  [parametros]
+    -a lista todas imagens
+    -q lista somente os id das imagens
+    
+Listar Containers
+-----------------
+  docker container ls
+  docker container list
+  docker container ps
+  docker ps
+  
+  [parametros]
+  -a lista todos containers
+  -q lista somente os id dos containers
+  -n mostra os [uyltimos n containers criados
+  -s mostra o tamanho total de arquivos
