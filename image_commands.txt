@@ -11,6 +11,10 @@ Inspecionar Imagem
 ------------------
   docker inspect <id imagem>
 
+Hist[orico de Camadas de uma Imagem
+------------------
+  docker history <id imagem>
+
 Listar Imagens
 --------------
   docker image ls
